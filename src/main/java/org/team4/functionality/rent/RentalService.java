@@ -13,6 +13,7 @@ public class RentalService {
     private static final int MAX_RENTALS_PER_USER = 10;
 
     private static final double PENALTY_PER_DAY=0.5;
+	
 
     private MaintainRent rentMaintain= MaintainDatabase.getInstance().getrenterDatabase();
 	private MaintainBooks maintainDB= MaintainDatabase.getInstance().getBookDatabase();
